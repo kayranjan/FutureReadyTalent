@@ -1,0 +1,225 @@
+body {
+  background-color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbarTop {
+  padding: 0 5%;
+}
+
+.navbar-brand {
+  color: #F05454;
+  font-family: 'Exo', sans-serif;
+  font-size: 2rem;
+}
+
+.nav-link {
+  font-family: 'Exo', sans-serif;
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+  text-align: left;
+  padding: 11% 30% 0 5%;
+  font-family: 'Libre Baskerville', serif;
+  animation: fadeIn 4s;
+}
+
+#subHeading {
+  padding: 2% 30% 30% 5.5%;
+  color: white;
+  font-size: 1.7rem;
+  text-align: left;
+  font-family: 'Exo', sans-serif;
+  animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.container-fluid {
+  background-image: url('main2.jpg');
+  height: 695px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: block;
+}
+
+.img-class {
+  width: 40%;
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.mid-h1 {
+  padding: 2% 30% 3% 1%;
+  font-family: 'Exo', sans-serif;
+  text-align: left;
+  font-size: 3.2rem;
+  color: #F05454;
+}
+
+.middle-container {
+  padding: 5%;
+  padding-top: 50px;
+  background-color: white;
+  height: 695px;
+  display: block;
+}
+
+#About {
+  font-size: 1.5rem;
+}
+
+.first-about {
+  font-family: 'Exo', sans-serif;
+  color: black;
+}
+
+.about {
+  padding-top: 2%;
+  font-family: 'Exo', sans-serif;
+  color: #F05454;
+  font-size: 1.5rem;
+}
+
+.second-about {
+  float: right;
+  font-family: 'Exo', sans-serif;
+  color: #F05454;
+  padding-bottom: 55px;
+}
+
+.bottom-container {
+  padding: 15%;
+  padding-bottom: 280px;
+  background-image: url('donateunused.jpg');
+  background-position: center;
+  background-size: cover;
+  text-align: right;
+  display: block;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Exo', sans-serif;
+  padding: 2% 24% 2% 27%;
+}
+
+.donate_text{
+  padding-top: 3.5%;
+  padding-left: 50%;
+  font-size: 2.5rem;
+  font-family: 'Exo', sans-serif;
+  text-align: right;
+  color: white;
+}
+
+.btn {
+  font-family: 'Exo', sans-serif;
+  font-size: 1.7rem;
+}
+
+.animation {
+  animation: fadeIn 4s;
+}
+
+.trans {
+  animation: fadeIn 1s;
+  background: rgba(0, 0, 0, 1);
+}
+
+.head2 {
+  color: black;
+  padding-top: 5%;
+  padding-bottom: 2.5%;
+  padding-right: 5%;
+  padding-left: 5%;
+  font-family: 'Exo', sans-serif;
+  text-align: center;
+}
+
+.contact {
+  display: block;
+}
+
+#footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 2%;
+  display: block;
+}
+
+.textDecor {
+  border-bottom: 2px solid currentColor;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+
+.col-md-6 {
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+.row {
+  margin: 0;
+  padding: 5%;
+}
+
+.fab {
+  margin-right: 30px;
+}
+@media only screen and (max-width: 534px) {
+  .container-fluid{
+    background-image: url('mobile-main.jpg');
+  }
+  h1{
+    font-size: 3rem;
+    padding-top: 200px;
+  }
+  .navbar-brand{
+    font-size: 2.2rem;
+  }
+  .img-class{
+    width: 100%;
+    padding-right: 0;
+  }
+  .about{
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  .middle-container{
+    height: 1000px;
+    padding-bottom: 5%;
+  }
+  h2{
+    font-size: 2.2rem;
+  }
+  .bottom-container{
+    height: 100vh;
+    padding: 5%;
+    padding-top: 250px;
+  }
+}
